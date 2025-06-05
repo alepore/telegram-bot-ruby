@@ -88,7 +88,7 @@ module Telegram
         attribute? :video_chat_ended, VideoChatEnded
         attribute? :video_chat_participants_invited, VideoChatParticipantsInvited
         attribute? :web_app_data, WebAppData
-        attribute? :reply_markup, InlineKeyboardMarkup
+        attribute? :reply_markup, ForceReply
 
         alias to_s text
       end
